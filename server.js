@@ -19,5 +19,6 @@ app.use('/api/recipes',recipeRoutes);
 const PORT = process.env.PORT || 5000;
 
 app.listen(PORT,()=>{
-    console.log("server is running in https://localhost:5000 ")
+    console.log("server is running in https://localhost:5000/api/recipes ")
 })
+
